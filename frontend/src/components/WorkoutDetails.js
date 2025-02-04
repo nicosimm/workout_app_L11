@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useWorkoutsContext } from '../hooks/useWorkoutsContext';
 import { useAuthenticationContext } from '../hooks/useAuthenticationContext';
-import formatDistanceToNow from 'date-fns/formatDistanceToNow';
+
 
 const WorkoutDetails = ({ workout }) => {
   const { dispatch } = useWorkoutsContext();
